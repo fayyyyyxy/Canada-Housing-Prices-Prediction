@@ -28,4 +28,4 @@ Both scripts contain code for data preprocessing, model training (linear and ens
 - **Stacking ensemble (Meta Regressor)** – Combined predictions from base models using a Linear Regression meta-model to improve accuracy and generalization.
 
 **Discussion:**  
-See the attached `CS334_Final_Report.pdf` for a detailed discussion of methods, model performance, and evaluations.
+See the attached Report for a detailed discussion of methods, model performance, and evaluations.
