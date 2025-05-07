@@ -14,11 +14,11 @@ This project aims to develop predictive machine learning models for housing pric
 Data sourced from Kaggle: [Canada Housing Price Data](https://www.kaggle.com/datasets/kimjihoo/canadian-housing-data)
 
 **Project Structure:**
-- `under_2.5M.py` – Complete pipeline (preprocessing, feature selection, model training, evaluation, and tuning) for properties priced under 2.5 million CAD. This includes three subsets:
+- `Under.ipynb` – Complete pipeline (preprocessing, feature selection, model training, evaluation, and tuning) for properties priced under 2.5 million CAD. This includes three subsets:
   - **High Population Area**: ON, QC, BC
   - **Resource-Rich Area**: AB, SK, MB
   - **Smaller Population Area**: All other provinces
-- `over_2.5M.py` – Complete pipeline for the **Luxury Market** subset, which includes all properties priced over 2.5 million CAD.
+- `Over.ipynb` – Complete pipeline for the **Luxury Market** subset, which includes all properties priced over 2.5 million CAD.
 
 Both scripts contain code for data preprocessing, model training (linear and ensemble-based), hyperparameter tuning, and evaluation. Each subset is modeled and analyzed separately to capture region- and price-specific dynamics.
 
